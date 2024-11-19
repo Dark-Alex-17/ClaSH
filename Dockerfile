@@ -17,5 +17,5 @@ RUN useradd aclarke
 USER aclarke
 WORKDIR /home/aclarke
 ENV TERM=xterm
-CMD ["/bin/ttyd", "--max-clients", "5", "--writable", "--port", "8080", "/bin/alexjclarke/clash"]
-EXPOSE 8080
+CMD ["/bin/ttyd", "--max-clients", "5", "--writable", "--port", "7681", "/bin/alexjclarke/clash"]
+EXPOSE 7681
