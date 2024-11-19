@@ -1,0 +1,24 @@
+[package]
+name = "clash"
+version = "0.1.0"
+authors = ["Alex Clarke <alex.j.tusa@gmail.com>"]
+description = "An interactive Clarke Shell for browsing my personal website."
+keywords = ["command-line-interface"]
+documentation = "https://github.com/Dark-Alex-17/ClaSH"
+repository = "https://github.com/Dark-Alex-17/ClaSH"
+homepage = "https://github.com/Dark-Alex-17/ClaSH"
+readme = "README.md"
+edition = "2021"
+rust-version = "1.82.0"
+exclude = [".github", "CONTRIBUTING.md", "*.log", "tags"]
+
+[dependencies]
+anyhow = "1.0.93"
+clap = { version = "4.5.21", features = ["derive", "cargo", "env"] }
+indoc = "2.0.5"
+rustyline = { version = "15.0.0", features = [
+  "case_insensitive_history_search",
+  "with-file-history",
+  "with-fuzzy",
+] }
+termimad = "0.31.1"
