@@ -30,3 +30,6 @@ docker run --rm -it -p 7681:7681 clash
 ```shell
 docker compose up
 ```
+
+## Creator
+This project and shell is the property of [Alex Clarke](https://github.com/Dark-Alex-17)
