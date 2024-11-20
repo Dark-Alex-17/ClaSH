@@ -17,7 +17,7 @@ Senior Software Engineer with 8 years of professional work experience, looking t
 September 2022 - Present
 * Developed an optimization algorithm for EV charging schedules that won the company a combined $65,000,000 in grants and funding, and was thus responsible to taking the Proof-of-concept to enterprise-ready from high level architectural design down to the low level code.
 * Wrote a whitepaper on the above algorithm that is presently in the process of being patented.
-* Managed a team of engineers to discuss, collaborate, design, and implement the above optimization algorithm and the necessary infrastructure.
+* Managed an international team of engineers to discuss, collaborate, design, and implement the above optimization algorithm, the supporting architecture, the database schema and data contracts, the CI/CD, and all infrastructure in between.
 * Responsible for the research, development, documentation, and production implementation of new advanced optimization algorithms using a host of techniques, ranging from constraint programming and Boolean satisfiability, to vector-calculus based algorithms.
 * Responsible for researching new Enterprise applications, creating proof -of-concepts, and implementing production applications with thorough documentation, CI/CD, etc., in a host of languages that make the most sense for the use case, including Rust, Go, Python, and Java.
 * Responsible for researching, designing, and implementing new cloud architectures in AWS to meet global Enterprise customer's needs and specific requirements, including regulatory requirements like GDPR.
