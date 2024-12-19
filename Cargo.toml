@@ -1,6 +1,6 @@
 [package]
 name = "clash"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Alex Clarke <alex.j.tusa@gmail.com>"]
 description = "An interactive Clarke Shell for browsing my personal website."
 keywords = ["command-line-interface"]

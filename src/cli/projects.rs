@@ -3,6 +3,7 @@ pub(super) static PROJECTS: &str = r#"# Projects
 
 ## Software Sideprojects
 * **Managarr**: A Rust-based TUI for managing many different Servarr instances (*https://github.com/Dark-Alex-17/managarr*).
+   * You can test out *Managarr* by visiting the demo site: (*https://managarr-demo.alexjclarke.com*)
 * **ClaSH**: This shell and website (*https://github.com/Dark-Alex-17/ClaSH*)
 * **Alerting-API**: A simple API that utilizes the Quartz library to provide a dynamic, reactive alerting system (minus the notification component), built with Kotlin. (*https://github.com/Dark-Alex-17/alerting-api*)
 * **AWS Cloud Gaming**: A Bash TUI built with whiptail to provision an EC2 instance in AWS, configure it with Steam, set up a low-latency RDP session using AWS' own NICE DCV to play games using AWS EC2 instances. (*https://github.com/Dark-Alex-17/aws-cloud-gaming*)
