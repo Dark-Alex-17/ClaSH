@@ -15,11 +15,11 @@ Principal Software Engineer with 8 years of experience delivering scalable, ente
 ### Healthcare AI Consultant
 #### Senior Software Engineer
 April 2025 - Present
-* Architected and deployed MLOps pipelines establishing comprehensive CI/CD workflows for machine learning models across multiple healthcare clients, reducing deployment time by 75% and ensuring consistent model versioning
+* Architected and deployed MLOps pipelines using GitHub Actions and GCP services (GCS, Vertex AI, Vertex AI Pipelines, Firestore, Workflows, Pub/Sub) establishing comprehensive CI/CD workflows for machine learning models across multiple healthcare clients, reducing deployment time by 75% and ensuring consistent model versioning
 * Engineered advanced monitoring systems for diverse model types (XGBoost, BEHRT, EHRMamba) tracking traditional metrics (feature drift, prediction skew) and custom dynamic indicators, enabling proactive quality management
 * Designed automated model retraining system triggered by quality degradation alerts, maintaining prediction precision above 95% threshold across production environments
-* Built ETL pipelines processing healthcare provider data tranches, performing data discovery and transformation to OMOP Common Data Model standards
-* Developed proof-of-concept AI agents leveraging LLMs for engineering task automation and vocabulary concept mapping within OMOP CDM, improving data standardization efficiency
+* Built ETL pipelines processing healthcare provider data tranches, performing data discovery and transformation to OMOP Common Data Model standards using GCP DataForm while ensuring HIPAA compliance
+* Developed proof-of-concept AI agents leveraging LLMs for engineering task automation and vocabulary concept mapping within OMOP CDM, improving data standardization efficiency by 50%
 
 ### IoTecha Corp
 #### Principal Software Engineer
