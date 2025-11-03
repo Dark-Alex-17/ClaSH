@@ -7,62 +7,77 @@ pub(super) static RESUME: &str = r#"# Alex Clarke
 | Personal Website | https://alexjclarke.com/              |
 | ---------------- | ------------------------------------- |
 
-## Summary
-Senior Software Engineer with 8 years of professional work experience, looking to apply and learn new and proven technologies. Passionate about learning. Skilled in JVM languages (Java, Kotlin, Groovy), Rust and Golang, Spring Framework, Bash, TypeScript (among many others); Relational and Non-Relational databases; API design, designing and building out AWS Architectures; R&D from POC to enterprise-ready. Proponent of automating all the things, from local to prod. Selfhosted and homelab fanboy.
+## Professional Summary
+Principal Software Engineer with 8 years of experience delivering scalable, enterprise-grade solutions across cloud infrastructure, machine learning operations, and distributed systems. Expertise in architecting event-driven systems, optimizing algorithms, and leading cross-functional teams. Proficient in JVM languages (Java, Kotlin, Groovy), Rust, Golang, TypeScript, and modern cloud platforms (AWS). Proven track record of securing major funding through innovative technical solutions and driving projects from proof-of-concept to production at scale.
 
-## Experience
+## Professional Experience
 
-### Senior Software Engineer
-#### IoTecha Corp
-September 2022 - Present
-* Developed an optimization algorithm for EV charging schedules that won the company a combined $65,000,000 in grants and funding, and was thus responsible to taking the Proof-of-concept to enterprise-ready from high level architectural design down to the low level code.
-* Wrote a whitepaper on the above algorithm that is presently in the process of being patented.
-* Managed an international team of engineers to discuss, collaborate, design, and implement the above optimization algorithm, the supporting architecture, the database schema and data contracts, the CI/CD, and all infrastructure in between.
-* Responsible for the research, development, documentation, and production implementation of new advanced optimization algorithms using a host of techniques, ranging from constraint programming and Boolean satisfiability, to vector-calculus based algorithms.
-* Responsible for researching new Enterprise applications, creating proof -of-concepts, and implementing production applications with thorough documentation, CI/CD, etc., in a host of languages that make the most sense for the use case, including Rust, Go, Python, and Java.
-* Responsible for researching, designing, and implementing new cloud architectures in AWS to meet global Enterprise customer's needs and specific requirements, including regulatory requirements like GDPR.
-* Responsible for the performance analysis of existing applications to discover bottlenecks. Once discovered, I document, recommend, and implement architectural and design improvements to remove said bottlenecks.
+### Healthcare AI Consultant
+#### Senior Software Engineer
+April 2025 - Present
+* Architected and deployed MLOps pipelines establishing comprehensive CI/CD workflows for machine learning models across multiple healthcare clients, reducing deployment time by 75% and ensuring consistent model versioning
+* Engineered advanced monitoring systems for diverse model types (XGBoost, BEHRT, EHRMamba) tracking traditional metrics (feature drift, prediction skew) and custom dynamic indicators, enabling proactive quality management
+* Designed automated model retraining system triggered by quality degradation alerts, maintaining prediction precision above 95% threshold across production environments
+* Built ETL pipelines processing healthcare provider data tranches, performing data discovery and transformation to OMOP Common Data Model standards
+* Developed proof-of-concept AI agents leveraging LLMs for engineering task automation and vocabulary concept mapping within OMOP CDM, improving data standardization efficiency
 
-### Full Stack Software Engineer
-#### Bandwidth Inc.
-May 2018 - September 2022
+### IoTecha Corp
+#### Principal Software Engineer
+March 2024 - Present
+* Developed novel EV charging optimization algorithm securing $65M in combined grants and funding for the company; led full lifecycle from research prototype to enterprise-ready production system
+* Authored technical whitepaper on optimization algorithm currently undergoing patent application process, demonstrating thought leadership in EV infrastructure optimization
+* Architected event-driven system design handling real-time EV charging demands; designed database schemas, documented system architecture, created comprehensive project roadmaps with epics and tickets, and ensured full compliance with CPNI and GDPR regulations
+* Managed and mentored international engineering team across multiple time zones, coordinating system design, infrastructure provisioning, CI/CD implementation, and data contract establishment
 
-* Design, iterate, implement, deploy global insights system, from concept to production, providing real-time analytics on 300,000,000 daily events, using AWS (Kinesis, CloudWatch, OpenSearch, EventBridge, Lambda, API Gateway, ALB, ECS)
-* Utilize machine learning (SageMaker), statistical process control, and different time-series models (ARIMA, SARIMAX) to monitor data quality
-* Automate CI/CD into AWS using Ansible, AWS CDK, and GitHub Actions
-* Mentor team members on technical (AWS, automation, optimizations) and theoretical topics (CAP Theorem, DataOps, time-series modeling), as well as engineering practices (Clean Code, OO, Design Patterns)
-* Foster company-wide community around learning, e.g. organized Lunch and Learns, inter-team tech round-tables
-* Implemented custom call routing logic for very large customers, resulting in 6,000,000 new phone numbers, dramatically boosting revenue
-* Implemented new call routing logic that enables IoT devices to make 911 phone calls with dynamic locations
-* Led team knowledge shares and curated team-wide learning
-* Expanded emergency call routing algorithms, thus enabling support for international emergency calls
+#### Senior Software Engineer
+September 2022 - March 2024
+* Researched and implemented advanced optimization algorithms utilizing constraint programming, Boolean satisfiability (SAT), and vector calculus techniques for complex scheduling problems
+* Evaluated emerging enterprise technologies, developed proof-of-concepts, and delivered production-ready applications with comprehensive documentation and CI/CD pipelines using Rust, Go, and Java
+* Designed and deployed AWS cloud architectures meeting global enterprise customer requirements including GDPR compliance, utilizing services spanning compute, networking, storage, and security domains
+* Conducted performance profiling of production applications, identified critical bottlenecks, and implemented architectural improvements resulting in 3x throughput increase
 
-### Theoretical Mathematics Researcher
-#### Metropolitan State University of Denver
+### Bandwidth Inc.
+#### Full Stack Software Engineer
+February 2021 - September 2022
+* Designed and deployed global real-time analytics platform processing 300M daily events using AWS services (Kinesis, OpenSearch, EventBridge, Lambda, API Gateway, ECS, CloudWatch), delivering actionable insights to stakeholders
+* Implemented data quality monitoring using machine learning (SageMaker), statistical process control, and time-series models (ARIMA, SARIMAX) ensuring data accuracy
+* Automated infrastructure provisioning and deployment pipelines using Ansible, AWS CDK, and GitHub Actions, reducing deployment time from hours to minutes
+* Mentored team members on cloud architecture (AWS), automation strategies, performance optimization, distributed systems theory (CAP theorem), DataOps practices, and software engineering principles (Clean Code, design patterns)
+* Established company-wide learning culture by organizing technical lunch-and-learns and facilitating cross-team knowledge-sharing sessions
+
+#### Junior Software Engineer
+May 2018 - February 2021
+* Implemented custom call routing logic for enterprise clients resulting in allocation of 6M new phone numbers and significant revenue growth
+* Developed dynamic location-based call routing system enabling IoT devices to place 911 emergency calls with accurate geolocation data
+* Extended emergency call routing algorithms to support international emergency services across multiple countries and regulatory frameworks
+* Led team knowledge-sharing initiatives and curated engineering learning resources
+
+### Metropolitan State University of Denver
+#### Theoretical Mathematics Researcher
 January 2020 - August 2020
+* Conducted advanced research in character theory and representation theory under Dr. Mandi Schaeffer-Fry, culminating in published theorem on the McKay conjecture
 
-Researched, proved, and published theorem in character theory and representation theory on the McKay conjecture under Dr. Mandi Schaeffer-Fry
-
-### Software Engineer
-#### IKEA
+### IKEA
+#### Software Engineer
 May 2016 - May 2018
-
-Write software for both the IKEA Centennial store and the greater IKEA company, creating software that can be used both locally and for any specified task, as well as used globally for any IKEA store. In addition, I was required to create a website specifically for the IKEA Centennial store using the following languages to create the web pages from real time data: Excel VBA, Java, JavaScript, CSS, HTML, and JSON. I was also required to refactor large portions of code that were not my own in order to enhance maintainability. This also included creating unit tests for already existing programs and using test driven development to create new programs, thus ensuring the longevity of the programs that are being written as well as the efficiency of any regression and integration testing that may be performed. In regards to the programs I did create, I created programs to lookup specifics about articles and print them to an already existing paper form that would be fed into the printer, a program to manage and sort over 120,000 different entries and a multitude of different data types, a website for the Centennial Store, and an outgoing program that is still in the works.
+* Developed web-based real-time analytics dashboard using Excel VBA, Java, JavaScript, HTML, CSS, and JSON for IKEA Centennial store
+* Refactored legacy codebases improving maintainability and reducing technical debt
+* Implemented test-driven development practices ensuring application reliability and streamlined regression testing processes
+* Created automated form-filling application to streamline inventory workflows, increasing team productivity
 
 ## Education
 ### Metropolitan State University of Denver
-* Bachelor of Science - BS, Double Major
-  * Computer Science
-  * Theoretical Mathematics
+* Bachelor of Science - BS, Computer Science
+* Bachelor of Science - BS, Theoretical Mathematics
 
-## Licenses and Certifications
+## Technical Skills
+**Languages:** Java, Kotlin, Groovy, Rust, Golang, TypeScript, JavaScript, Python, Bash, SQL, Groovy
+**Frameworks & Libraries:** Spring Framework (Boot, Cloud, Security), React, Node.js
+**Cloud & DevOps:** AWS (Kinesis, Lambda, ECS, OpenSearch, EventBridge, SageMaker, CloudWatch, API Gateway, ALB, CDK), GCP (Cloud Run, BigQuery, DataForm, Vertex AI, Compute Engine, Workflows, GCS), Ansible, Terraform, GitHub Actions, Docker, Kubernetes
+**Databases:** PostgreSQL, MySQL, MongoDB, DynamoDB, Redis, OpenSearch/Elasticsearch, BigQuery
+**Specializations:** Event-driven architecture, MLOps, distributed systems, algorithm optimization, API design, data engineering, performance tuning, regulatory compliance (GDPR, CPNI)
+
+## Certifications and Awards
 * AWS Certified Solutions Architect
-* Patent holder for the EV optimization algorithm mentioned above (In progress)
-
-## Honors and Awards
-### Certificate of Achievement - Department of Mathematics
-May 2019
-
-This certificate of achievement is awarded in recognition of exceptional accomplishments in the field of theoretical mathematics
-
+* Certificate of Achievement in Theoretical Mathematics - Metropolitan State University of Denver, Department of Mathematics
 "#;
