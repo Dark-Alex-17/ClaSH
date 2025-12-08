@@ -13,6 +13,13 @@ pub(super) static PROJECTS: &str = r#"# Projects
 * **AWS Cloud Gaming**: A Bash TUI built with whiptail to provision an EC2 instance in AWS, configure it with Steam, set up a low-latency RDP session using AWS' own NICE DCV to play games using AWS EC2 instances. (*https://github.com/Dark-Alex-17/aws-cloud-gaming*)
 * **Alerting-API**: A simple API that utilizes the Quartz library to provide a dynamic, reactive alerting system (minus the notification component), built with Kotlin. (*https://github.com/Dark-Alex-17/alerting-api*)
 
+## Homelab
+I have roughly 50 different servers that I self-host and experiment with. I've exposed a few publicly for family and friends to look at. You can see a sliver of what I host and tinker with regularly here:
+https://dashboard.alexjclarke.com
+
+And to see the status of my publicly-exposed services, you can check my status page:
+https://status.alexjclarke.com
+
 ## Mathematics Sideprojects
 * **Real Analysis - Theorems and Definitions**: A large LaTeX book that's designed to be a quick-reference for many theorems, definitions, lemmas, corrollaries, etc. that are useful when proving conjectures or when studying properties of real numbers. (*https://github.com/Dark-Alex-17/real-analysis-theorems-and-definitions*)
 * **Abstract Algebra - Theorems and Definitions**: Like the previous project, this one is the same idea, except it's a collection of theorems, definitions, etc. in Abstract Algebra for quick-reference. (*https://github.com/Dark-Alex-17/abstract-algebra-theorems-and-definitions*)
