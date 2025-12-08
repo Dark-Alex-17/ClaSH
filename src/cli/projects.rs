@@ -14,7 +14,6 @@ pub(super) static PROJECTS: &str = r#"# Projects
 * **Alerting-API**: A simple reactive API that utilizes the Quartz library to provide a dynamic, reactive alerting system (minus the notification component), built with Kotlin. (*https://github.com/Dark-Alex-17/alerting-api*)
 
 ## Homelab
-### Gist
 I have roughly 50 different servers that I self-host and experiment with. I've exposed a few publicly for family and friends to use. You can see a sliver of what I host and tinker with regularly here:
 
 *https://dashboard.alexjclarke.com*
