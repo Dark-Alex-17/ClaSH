@@ -5,7 +5,7 @@ pub(super) static PROJECTS: &str = r#"# Projects
 * **Managarr**: A Rust-based TUI for managing many different Servarr instances (*https://github.com/Dark-Alex-17/managarr*)
    * You can test out *Managarr* by visiting the demo site: (*https://managarr-demo.alexjclarke.com*)
 * **G-Man**: Universal command line credential management and injection tool (*https://github.com/Dark-Alex-17/gman*)
-* **Loki**: An All-in-one, batteries included LLM CLI tool (*https://github.com/Dark-Alex-17/loki)
+* **Coyote**: An All-in-one, batteries included LLM CLI tool (*https://github.com/Dark-Alex-17/coyote)
 * **devtools**: An AIO CLI for your command line tasks: cloud management (AWS/GCP), databases, AI tools, plotting, system maintenance, and more (*https://github.com/Dark-Alex-17/dtools)
 * **ClaSH**: This shell and website (*https://github.com/Dark-Alex-17/ClaSH*)
 * **DynamoDB and DAX Benchmarker**: A simple benchmarking utility built in both Rust and Go to benchmark performance differences between a DynamoDB table that doesn't use DAX, and one that does. An Elastic stack is used to receive the benchmarking metrics in real time so that users can also visualize the benchmarking results in Kibana using the pre-built dashboard. (*https://github.com/Dark-Alex-17/dynamodb-dax-benchmarker*)
